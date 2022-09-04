@@ -1,6 +1,6 @@
 # ruby-vips-basic-alterations
 
-This repo only function is to provide basic VIPS algorithm in order to perform multiple alterations to your images. It kinda extends John Cuppit examples for Ruby Vips that can be found here : https://github.com/libvips/ruby-vips/wiki/Examples or here : https://github.com/libvips/ruby-vips/tree/master/example
+This repo only function is to provide basic VIPS algorithm in order to perform multiple alterations to your images. It kinda extends John Cupitt examples for Ruby Vips that can be found here : https://github.com/libvips/ruby-vips/wiki/Examples or here : https://github.com/libvips/ruby-vips/tree/master/example
 
 ## Configuration
 
