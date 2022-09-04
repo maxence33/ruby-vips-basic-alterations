@@ -24,3 +24,7 @@ im = im.linear([x,1,1],[0,0,0])       # here 1.2 is the brightness
 im.write_to_file "test.jpg"
 
 # your output image should be brighter by the original by the same amount as the CSS rule : "filter: brightness(1.2)"
+
+
+# It seems W3 is keeping the image as RGB and apply the value to each pixel
+# please see here: https://www.w3.org/TR/filter-effects/#brightnessEquivalent
