@@ -1,5 +1,3 @@
-# require 'vips'
-
 # Here we are basically switching our image to LCH color space
 # each pixel now has a value from 0 to 255 for Luminance,Chroma Hue
 # we are then using the Linear method from http://libvips.github.io/ruby-vips/Vips/Image.html#linear-instance_method 
@@ -15,6 +13,8 @@
 # Also you can see that our brightness multiplicator is added the first value of our array
 # This is because in LCH colorspace, it is the first byte that corresponds to the luminance
 # If we have added x to all values of the array, then Chroma and Hue would have been altered too
+
+require 'vips'
 
 x = 1.2
 
