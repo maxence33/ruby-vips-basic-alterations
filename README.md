@@ -41,5 +41,6 @@ They may not be optimized nor work for different image types other than JPG.
 
 # Current list of scripts
 
-- alter brightness of an image
-- alter saturation of an image
+- alter brightness (to mimic CSS filter brightness)
+- alter saturation (to mimic CSS filter saturate)
+- alter contrast (to mimic CSS filter contrast)
